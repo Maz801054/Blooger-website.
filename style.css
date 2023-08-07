@@ -1,0 +1,160 @@
+.navbar-nav {
+  margin-right: 210px;
+}
+
+.nav-link {
+  color: white;
+  transition: 0.5s;
+}
+.nav-link:hover {
+  transition: 0.5s;
+  color: wheat !important;
+  background-color: darkcyan;
+}
+.fa-brands {
+  margin-right: 20px;
+  font-size: 22px;
+  transition: 0.5s;
+}
+.fa-brands:hover {
+  color: darkcyan;
+  transition: 0.5s;
+}
+.section1 {
+  background-image: url(.//Image/Background-image.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 109vh;
+  width: 100vw;
+}
+.btn1 {
+  background-color: darkcyan;
+  color: white;
+  padding: 7px 30px;
+  border-radius: 20px;
+  transition: 0.5s;
+  border: 1px solid white;
+}
+.btn1:hover {
+  transition: 0.5s;
+  background-color: transparent;
+}
+.s1margin {
+  padding-top: 170px;
+}
+
+/* section tow start now */
+
+.section2 {
+  background-image: url(./Image/Abract01.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  margin-top: 50px;
+  z-index: 1000px;
+}
+.owl-carousel {
+  position: relative;
+  top: 100px;
+}
+.custom-overlay {
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: green;
+  opacity: 0;
+  transition: all 40ms ease-in-out;
+  height: 70%;
+}
+.custom-overlay:hover {
+  opacity: 1;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 3%;
+}
+.owl-dot {
+  position: relative;
+  top: -560px;
+  display: inline-block;
+  height: 6px !important;
+  width: 60px !important;
+  background-color: #222 !important;
+  opacity: 0.8;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background-color: yellow !important;
+}
+.card {
+  background-color: #22222201;
+}
+.card-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+.card-body {
+  text-align: center;
+}
+.card-text {
+  margin-top: 10px;
+}
+.content-area {
+  margin-left: 40px;
+}
+
+/* section tow end now */
+
+/* section three start now */
+
+.setting {
+  margin-top: -200px;
+}
+@media (min-width: 300px) and (max-width: 560px) {
+  .setting {
+    margin-top: 50px;
+  }
+}
+/* section three end now */
+
+/* section four start now */
+
+.oness {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/* section four end now */
+
+/* section six start now */
+
+.thambal {
+  height: 60px;
+  width: 60px;
+}
+
+/* section six end now */
+
+.baground {
+  padding: 10px;
+  background-color: darkcyan;
+  transition: 0.5s;
+}
+.baground:hover {
+  background-color: white;
+  color: darkcyan;
+  transition: 0.5s;
+}
+.remov {
+  text-decoration: none;
+  color: white;
+}
